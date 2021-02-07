@@ -1,0 +1,44 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Jonne T Ietää",
+      "number": "000-111777",
+      "id": 2
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 3
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 4
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 5
+    },
+    {
+      "name": "Kalle Kustaa",
+      "number": "45-797979111",
+      "id": 6
+    },
+    {
+      "name": "Anneli \"Angie\" Merkel",
+      "number": "49-356911917",
+      "id": 7
+    },
+    {
+      "name": "Andreas \"Andy\" Preuninger",
+      "number": "45-HERR-GT3",
+      "id": 8
+    }
+  ]
+}
