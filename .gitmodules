@@ -1,0 +1,3 @@
+[submodule "osa3/puhelinluettelo-backend"]
+	path = osa3/puhelinluettelo-backend
+	url = git@github.com:tuomaster/fullstack-k2021-osa3-puhelinluettelo.git
