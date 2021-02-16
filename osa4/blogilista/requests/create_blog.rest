@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "New Stack vs Ultra New Stack",
+    "author": "Pena",
+    "url": "www.penanstackiblogi.com",
+    "likes": 4
+}
