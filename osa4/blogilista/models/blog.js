@@ -1,21 +1,14 @@
 const mongoose = require('mongoose')
 
-console.log('connecting to MongoDB')
-const mongoUrl = process.env.MONGODB_URI
-
-mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
-  .then(() => {
-    console.log('connected to MongoDB')
-  })
-  .catch(error => {
-    console.log('error connecting to MongoDB', error.message)
-  })
-
 const blogSchema = new mongoose.Schema( {
-  title: String,
+  title: { type: String, required: true },
   author: String,
-  url: String,
-  likes: Number
+  url: { type: String, required: true },
+  likes: { type: Number, default: 0 },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  }
 })
 
 blogSchema.set('toJSON', {
